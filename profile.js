@@ -1,7 +1,9 @@
-var x = document.getElementById("color");
-x.addEventListener("click", myColor);
-x.addEventListener("click", myPlace);
-x.addEventListener("click", myRitual);
+const myFavColor = document.querySelector('#color')
+const myFavPlace = document.querySelector('#place')
+const myFavRitual = document.querySelector('#ritual')
+
+
+
 
 function myColor() {
     alert ("My Favorite color is Blue");
@@ -12,7 +14,11 @@ function myColor() {
   }
 
   function myRitual() {
-    alert ("Metitating in the mornings.");
+    alert ("Meditating in the mornings.");
   }
+
+  myFavColor.addEventListener('click', myColor)
+  myFavRitual.addEventListener("click", myRitual)
+  myFavPlace.addEventListener("click", myPlace)
   
  

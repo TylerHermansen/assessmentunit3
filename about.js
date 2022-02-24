@@ -5,26 +5,17 @@ console.log("hello world");
 function handleSubmit(evt) {
 	evt.preventDefault();
 	
-	alert('form submited');
+	alert('form submited')
 }
 
 
-let form = document.querySelector('form#contact');
+let form = document.querySelector('#contact')
 
-form.addEventListener('submit', handleSubmit);
+form.addEventListener('submit', handleSubmit)
 
-// function mOver(obj) {
-// 	obj.innerHTML = "Grumpy cat says you are doing good"
+const photo = document.querySelector('#photo')
 
-// }
-
-// var x = document.getElementById("myBtn");
-// x.addEventListener("click", myFunction);
-// x.addEventListener("click", someOtherFunction);
-
-
-// function mOut(obj) {
-// 	obj.getElementById("photo").addEventListener("mOut(this)", mOut, true);
-// }
-	
-
+function cat(){
+	alert('grumpy cat approves of this message')
+}
+photo.addEventListener('mouseover', cat)
