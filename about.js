@@ -18,9 +18,9 @@ form.addEventListener('submit', handleSubmit);
 
 // }
 
-var x = document.getElementById("myBtn");
-x.addEventListener("click", myFunction);
-x.addEventListener("click", someOtherFunction);
+// var x = document.getElementById("myBtn");
+// x.addEventListener("click", myFunction);
+// x.addEventListener("click", someOtherFunction);
 
 
 // function mOut(obj) {
